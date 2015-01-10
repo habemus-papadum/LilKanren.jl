@@ -1,7 +1,6 @@
 ###### *All ye who enter this domaine, heed these words,*
 # 𝕳𝖊𝖗𝖊 𝖇𝖊 𝕶𝖆𝖓𝖗𝖊𝖓𝖘**‼**
 
--------------------------------
 
 Just like Mitt, I'd like a binder full of kanren, and so here, I am collecting my assortment.  
 
