@@ -1,9 +1,9 @@
 # 𝕳𝖊𝖗𝖊 𝖇𝖊 𝕶𝖆𝖓𝖗𝖊𝖓𝖘**‼**
 
 ### Introduction
-Just like Mitt, I'd like a binder full of kanren, and so here, I am collecting my assortment.  
+Just like Mitt, I'd like a binder full of kanren, and so I am collecting my assortment of notebooks on the topic in this repo.  
 
-Each kanren is developed in notebook style, typically self contained, and explores a spectrum of design issues.  The code is meant mostly to be read and twiddled interactively.  At some later point the various lessons learned may be baked into a form suitable for public consumption.  
+Each notebook implements a (typically self-contained) kanren in a conversational style, while exploring a spectrum of design issues.  The code is meant mostly to be read and twiddled interactively.  At some later point the various lessons learned may be baked into a form suitable for public consumption.  
 
 If you are just browsing, and would rather not be bothered by the hassles of cloning the repo, setting up IJulia, and such -- then the following links to rendered versions of the notebooks may be the path for you:
 
@@ -13,4 +13,5 @@ If you are just browsing, and would rather not be bothered by the hassles of clo
 
 ### Notes
 * **kanren**? cf. http://minikanren.org/
+* **Julia**? cf. http://julialang.org/
 * **When development gets fast and furious**: nbviewer (the notebook rendering service) caches static rendering for 10 minutes.  Google for a magic url that forces a cache flush.
