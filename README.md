@@ -23,9 +23,9 @@ However, interactive fiddling is **highly** encouraged -- again, for those seeki
 * **Look into the Abyss**: Visualizing the Geometry of Search
 * **Searching for 𝕳𝔢𝔯𝔯 𝕯𝔬𝔨𝔱𝔬𝔯 𝕳𝔬𝔭𝔣**: No not that one, the other one.  
 
--------------------------
 
-### wtf?
+### What the What?
+-------------------------
 * **kanren**? cf. http://minikanren.org/
 * **Julia**? cf. http://julialang.org/
 * **JuliaBox**? cf. http://juliabox.org/
