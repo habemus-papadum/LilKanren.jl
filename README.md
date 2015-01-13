@@ -18,8 +18,8 @@ However, interactive fiddling is **highly** encouraged -- again, for those seeki
 
 ### Bucket List
 --------------------------
-* **Threading the Needle**: Experiments in syntax
-* **"A Mere Trifle"**: A `Persistent Vector+Union-Find` constraint store and benchmarking paraphenalia
+* **Threading the Needle**: Further experiments in syntax
+* **"A Mere Trifle" *aka* The Bourgeois Ascendency**: A `Persistent Vector Store+Union-Find Walker` and benchmarking paraphenalia
 * **Look into the Abyss**: Visualizing the Geometry of Search
 * **Searching for 𝕳𝔢𝔯𝔯 𝕯𝔬𝔨𝔱𝔬𝔯 𝕳𝔬𝔭𝔣**: No not that one, the other one.  
 
