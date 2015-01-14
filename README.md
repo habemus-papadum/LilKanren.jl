@@ -25,7 +25,7 @@ However, interactive fiddling is **highly** encouraged -- again, for those seeki
 * **Searching for 𝕳𝔢𝔯𝔯 𝕯𝔬𝔨𝔱𝔬𝔯 𝕳𝔬𝔭𝔣**: No not that one, the other one.  
 
 
-### What th' Wa'?
+### What th' Wuh?
 -------------------------
 * **kanren**? cf. http://minikanren.org/
 * **Julia**? cf. http://julialang.org/
