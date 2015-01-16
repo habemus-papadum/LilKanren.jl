@@ -23,7 +23,7 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 
 * Thou shalt not prophylactically `zzz`, lest you never overcome your fear of the Dragon.
 * Thou shalt not `reify`, lest your bones become brittle.
-* Thou shalt not `take` or `run`, only `step`, so that you may better hear the gentle rhythms of `thunk`, `thunk`, `dribble`, `thunk`, `dribble`, `dribble`, `thunk`...
+* Thou shalt not `take` or `run` without first learning to `step`, so that you may better hear the gentle rhythms of `thunk`, `thunk`, `dribble`, `thunk`, `dribble`, `dribble`, `thunk`...
 * Thou shalt not `occurs✓`, just because. 
 
 
