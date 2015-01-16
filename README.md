@@ -17,10 +17,20 @@ If you are just browsing, and would rather not be bothered by the hassles of clo
 
 However, interactive fiddling is **highly** encouraged -- again, for those seeking the path of least resistance, JuliaBox wins the prize.
 
+### lilinjn's Dogma of Search
+--------------------------
+The dogma is so designed to foster intuition about the geometry of search. The issue at hand is no different than the quandry of when to introduce calculators in grade school. 
+
+* Thou shalt not prophylactically `zzz`, lest you never overcome your fear of the Dragon.
+* Thou shalt not `reify`, lest your bones become brittle.
+* Thou shalt not `run`, only `step`, so that you may better hear the gentle rhythms of `thunk`, `thunk`, `dribble`, `thunk`, `dribble`, `dribble`, `thunk`...
+* Thou shalt not `occurs✓`, just because. 
+
+
 ### Bucket List
 --------------------------
 * **Threading the Needle**: Further experiments in syntax
-* **"A Mere Trifle" *aka* The Bourgeois Ascendency**: A `Persistent Vector Store+Union-Find Walker` and benchmarking paraphenalia
+* **A Mere Trifle aka The Bourgeois Ascendency**: A `Persistent Vector Store+Union-Find Walker` and benchmarking paraphenalia
 * **Look into the Abyss**: Visualizing the Geometry of Search
 * **Searching for 𝕳𝔢𝔯𝔯 𝕯𝔬𝔨𝔱𝔬𝔯 𝕳𝔬𝔭𝔣**: No not that one, the other one.  
 
