@@ -1,23 +1,41 @@
 Crumpled Paper
 ===============
 * doodles
- * 2015-01-PrettyPrint.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-PrettyPrint.ipynb
- * 2015-01-Simple-Reify.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Simple-Reify.ipynb
- * 2015-01-SlurpityDooDah.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-SlurpityDooDah.ipynb
+ * [2015-01-PrettyPrint]
+[2015-01-PrettyPrint]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-PrettyPrint.ipynb
+ * [2015-01-Simple-Reify]
+[2015-01-Simple-Reify]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Simple-Reify.ipynb
+ * [2015-01-SlurpityDooDah]
+[2015-01-SlurpityDooDah]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-SlurpityDooDah.ipynb
 * julialang
- * JLangCallable.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangCallable.ipynb
- * JLangComprehensions.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangComprehensions.ipynb
- * JLangDispatch.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangDispatch.ipynb
- * JLangFunctionReflection.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangFunctionReflection.ipynb
- * JLangFunctions.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangFunctions.ipynb
- * JLangMacroErrorMessages.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangMacroErrorMessages.ipynb
- * JLangMacros.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangMacros.ipynb
- * JLangTuples.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangTuples.ipynb
+ * [JLangCallable]
+[JLangCallable]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangCallable.ipynb
+ * [JLangComprehensions]
+[JLangComprehensions]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangComprehensions.ipynb
+ * [JLangDispatch]
+[JLangDispatch]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangDispatch.ipynb
+ * [JLangFunctionReflection]
+[JLangFunctionReflection]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangFunctionReflection.ipynb
+ * [JLangFunctions]
+[JLangFunctions]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangFunctions.ipynb
+ * [JLangMacroErrorMessages]
+[JLangMacroErrorMessages]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangMacroErrorMessages.ipynb
+ * [JLangMacros]
+[JLangMacros]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangMacros.ipynb
+ * [JLangTuples]
+[JLangTuples]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangTuples.ipynb
 * perf
- * PerfBacktrace.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfBacktrace.ipynb
- * PerfGeneral.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfGeneral.ipynb
- * PerfModules.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfModules.ipynb
- * PerfSplats.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfSplats.ipynb
- * PerfTasks.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfTasks.ipynb
- * PerfTuples.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfTuples.ipynb
- * PerfTuplesContinued.ipynb: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfTuplesContinued.ipynb
+ * [PerfBacktrace]
+[PerfBacktrace]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfBacktrace.ipynb
+ * [PerfGeneral]
+[PerfGeneral]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfGeneral.ipynb
+ * [PerfModules]
+[PerfModules]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfModules.ipynb
+ * [PerfSplats]
+[PerfSplats]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfSplats.ipynb
+ * [PerfTasks]
+[PerfTasks]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfTasks.ipynb
+ * [PerfTuples]
+[PerfTuples]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfTuples.ipynb
+ * [PerfTuplesContinued]
+[PerfTuplesContinued]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/perf/PerfTuplesContinued.ipynb

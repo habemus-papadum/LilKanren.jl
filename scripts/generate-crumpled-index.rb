@@ -8,7 +8,9 @@ def makeindex(path, file, level = 0)
   address = "http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/"
   path.children.collect do |child|
     if child.file? and child.extname == ".ipynb"
-      file.write((' ' * level) + '* ' + child.basename.to_s + ": #{address}#{child.to_s}" + "\n")
+      file.write((' ' * level) + '* [' + child.basename('.*').to_s + "]\n")
+      file.write('[' + child.basename('.*').to_s + "]: #{address}#{child.to_s}" + "\n")
+
     elsif child.directory? and !child.basename.to_s.start_with?('.')
       file.write((' ' * level) + '* ' + child.basename.to_s + "\n")
       makeindex(child, file, level+1)
