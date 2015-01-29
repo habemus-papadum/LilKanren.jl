@@ -3,7 +3,7 @@
 fresh(f::Function,n) = begin
     (sc) -> begin
         (bindings,count) = sc
-        vars = [LK.Var(i) for i=count:count+(n-1)]
+        vars = [Var(i) for i=count:count+(n-1)]
         goal = f(vars...)
         sc = (bindings,count+n)
         goal(sc)
@@ -28,7 +28,7 @@ end
 # DRAGON, SLEEP!
 η⁻¹(goal) = :((st) -> () -> $(esc(goal))(st))
 
-macro ☽(goal)  ## It's a half moon
+macro ☾(goal)  ## It's a moon
     η⁻¹(goal)
 end
 
@@ -42,6 +42,7 @@ end
 list() = ()
 list(x...) = (x[1], list(x[2:end]...))
 const ❀ = list  # There should be more flowers in CS
+const ⊞ = list
 
 islist(x) = false
 islist(x::()) = true
@@ -68,3 +69,5 @@ list➜array(x) = begin
         error("Not a list: $x")
     end
 end
+
+export @☾, @zzz, list➜array, islist, ❀, list

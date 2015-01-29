@@ -1,6 +1,5 @@
-include("../currentKanren.jl")
 
-setupStyling()
+using LilKanren
 
 function appendᵒ(o,front,back)
     ∨(
@@ -10,12 +9,21 @@ function appendᵒ(o,front,back)
          ∧(
              (h,t) ≡ front,
              (h,temp) ≡ o,
-             @☽(appendᵒ(temp,t,back))
+             @☾(appendᵒ(temp,t,back))
          )
        end
     )
 end
 
+slurpityDooDah() do q
+    q ≡ (:♡, :♠)
+end
+
+Var(0) ≡ (:♡, :♠)
+
+LilKanren.functionParams() do q
+    q ≡ (:♡, :♠)
+end
 
 
 slurpityDooDah() do q

@@ -1,20 +1,19 @@
 ## Our current Kanren
 
-module LilKanren
-    immutable type Var
-        id::Int
-    end
-
-    ## for reification
-    immutable type FreeValue
-        id::Int
-    end
-
-    immutable type SelfRef
-        name
-    end
+export Var
+immutable type Var
+    id::Int
 end
-LK = LilKanren
+
+## for reification
+immutable type FreeValue
+    id::Int
+end
+
+immutable type SelfRef
+   name
+end
+
 
 
 ## A translation of µKanren
@@ -50,7 +49,7 @@ const ∞ = empty_state      ## it's a "glass half full" sort of thing...
 ## The State
 ## --------------
 unifyLeft(u,v,s) = u===v ? s : nothing # base case
-unifyLeft(u::LK.Var,v,s) =  u==v ? s : ext_s(u,v,s)
+unifyLeft(u::Var,v,s) =  u==v ? s : ext_s(u,v,s)
 unifyLeft(u::(Any,Any),v::(Any,Any),s) = begin
     (uhead,utail) = u
     (vhead,vtail) = v
@@ -62,7 +61,7 @@ end
 ## The Bourgeoisie
 ## ----------------
 walk(u,s) = (u,s) ## base case
-walk(u::LK.Var,s) = begin
+walk(u::Var,s) = begin
     (found,value) = lookup(u,s)
     found == :✔︎ ? walk(value,s) : (u,s)
 end
@@ -95,7 +94,7 @@ const ≡ = equivalent
 fresh(f::Function) = begin
     (st) -> begin
         (bindings,count) = st
-        var = LK.Var(count)
+        var = Var(count)
         goal = f(var)
         st = (bindings,count+1)
         goal(st)
@@ -123,7 +122,7 @@ bind(strand::(),g) = mzero
 bind(strand::Function,g) = () -> bind(strand(),g)
 bind(strand::(Any,Any),g) = mplus(g(first(strand)), bind(second(strand),g)) ## A true weave
 
-nothing
-
+export unify, unifyLeft, unifyLeft, walk, disj, conj, fresh, equivalent, mzero, unit, mplus, bind
+export ∨, ∧, ⪢, ⪡, ∞, ø, ≡
 
 
