@@ -17,11 +17,13 @@ function appendᵒ(o,front,back)
 end
 
 
+
 slurpityDooDah() do q
     appendᵒ(q, ❀(:✌︎, :✒︎, :✂︎, :☼), ❀(:☿,:♆))
 end
 
 slurpityDooDah(maxResults=20) do front, back
-    appendᵒ(❀(4:10...), front, back)
+    appendᵒ(❀(:✌︎, :✒︎, :✂︎, :☼,:☿,:♆,:✌︎, :✒︎, :✂︎, :☼,:☿,:♆),
+            front, back)
 end
 
