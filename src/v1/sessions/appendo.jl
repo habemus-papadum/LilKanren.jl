@@ -1,5 +1,13 @@
 
+## useful for resetting Module list
+LightTable.raise(LightTable.global_client, "julia.set-modules", @Jewel.d(:modules => [string(m) for m in Jewel.allchildren(Main)]))
+
+
 using LilKanren
+
+slurp() do q
+    q ≡ (:♡, :♠)
+end
 
 function appendᵒ(o,front,back)
     ∨(
@@ -15,22 +23,12 @@ function appendᵒ(o,front,back)
     )
 end
 
-slurpityDooDah() do q
-    q ≡ (:♡, :♠)
-end
 
-Var(0) ≡ (:♡, :♠)
-
-LilKanren.functionParams() do q
-    q ≡ (:♡, :♠)
-end
-
-
-slurpityDooDah() do q
+slurp() do q
     appendᵒ(q, ❀(:✌︎, :✒︎, :✂︎, :☼), ❀(:☿,:♆))
 end
 
-slurpityDooDah(maxResults=20) do front, back
+slurp(maxResults=20) do front, back
     appendᵒ(❀(:✌︎, :✒︎, :✂︎, :☼,:☿,:♆,:✌︎, :✒︎, :✂︎, :☼,:☿,:♆),
             front, back)
 end

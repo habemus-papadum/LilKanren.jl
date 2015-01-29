@@ -148,8 +148,8 @@ function functionParams(f)
 end
 
 
-export slurpityDooDah
-function slurpityDooDah(freshBody::Function;
+export slurp
+function slurp(freshBody::Function;
                      maxResults = 10, maxSteps=1_000_000, maxTime=5s,
                      elideAfter=20, returnResults=false)
 
