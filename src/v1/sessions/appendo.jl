@@ -10,11 +10,11 @@ end
 function appendᵒ(o,front,back)
   ∨(  ## <-- Disjunction
 
-    # ... the base case
+    # The base case
     ∧(() ≡ front,
        o ≡ back),
 
-    # ... or the recursive case
+    # The recursive case
     fresh(3) do h,t,temp
       ∧((h,t)    ≡ front,
         (h,temp) ≡ o,
@@ -34,4 +34,3 @@ slurp(maxResults=20) do front, back
             front,
             back)
 end
-

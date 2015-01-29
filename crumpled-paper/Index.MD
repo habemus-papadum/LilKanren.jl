@@ -7,6 +7,8 @@ Crumpled Paper
 [2015-01-Simple-Reify]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Simple-Reify.ipynb
  * [2015-01-SlurpityDooDah]
 [2015-01-SlurpityDooDah]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-SlurpityDooDah.ipynb
+ * [2015-01-SmallModelsv2]
+[2015-01-SmallModelsv2]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-SmallModelsv2.ipynb
 * julialang
  * [JLangCallable]
 [JLangCallable]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangCallable.ipynb
@@ -22,6 +24,8 @@ Crumpled Paper
 [JLangMacroErrorMessages]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangMacroErrorMessages.ipynb
  * [JLangMacros]
 [JLangMacros]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangMacros.ipynb
+ * [JLangOperators]
+[JLangOperators]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangOperators.ipynb
  * [JLangTuples]
 [JLangTuples]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangTuples.ipynb
 * perf
