@@ -3,7 +3,7 @@ using Jewel
 module LilKanren
   include("core.jl")
   include("helpers.jl")
-  include("ui-juno.jl")
+  include("ui.jl")
 end
 
 if isdefined(Main, :IJulia)
