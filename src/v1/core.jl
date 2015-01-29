@@ -105,8 +105,11 @@ disj(g1,g2) = (st) -> mplus(g1(st), g2(st))
 conj(g1,g2) = (st) -> bind(g1(st), g2)
 const ∨ = disj
 const ⫷ = disj #this is the picture in my head -- a weave
+const ⪡ = disj
+
 const ∧ = conj
 const ⫸ = conj #this is the picture in my head -- a braid
+const ⪢ = conj
 
 ## The Bowels of Hell...
 ## (or Heaven -- the whole thing is just a big snake eating its tail)
@@ -123,6 +126,6 @@ bind(strand::Function,g) = () -> bind(strand(),g)
 bind(strand::(Any,Any),g) = mplus(g(first(strand)), bind(second(strand),g)) ## A true weave
 
 export unify, unifyLeft, unifyLeft, walk, disj, conj, fresh, equivalent, mzero, unit, mplus, bind
-export ∨, ∧, ⪢, ⪡, ∞, ø, ≡
+export ∨, ∧, ⫷, ⫸, ⪡,⪢, ∞, ø, ≡
 
 

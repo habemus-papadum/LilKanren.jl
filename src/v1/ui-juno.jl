@@ -295,21 +295,26 @@ end
 
 
 function varTable(res)
-    tr(x...)  = DM.Node(:tr,x...)
-    td(x...)  = DM.Node(:td,x...)
+  tr(x...)  = DM.Node(:tr,x...)
+  td(x...)  = begin
+    n = DM.Node(:td,x...);
+    n.attrs = ["margin"=>"10px"];
+    n
+  end
 
-    function items(r)
-        e = {}
-        for i=1:length(r)
-            (name,value) = r[i]
-            row = tr(td(span(name)), td(pp(value)))
-            push!(e,row)
-        end
-        e
+  function items(r)
+    e = {}
+    for i=1:length(r)
+      (name,value) = r[i]
+      row = tr(td(span(name, style=["margin"=>"10px"])),
+               td(span(pp(value), style=["margin"=>"10px"])))
+      push!(e,row)
     end
+    e
+  end
 
-    t = DM.Node(:table, items(res)...)
-    t.attrs=["class"=>"array"]
-    t
+  t = DM.Node(:table, items(res)...)
+  t.attrs=["class"=>"array"]
+  t
 end
 
