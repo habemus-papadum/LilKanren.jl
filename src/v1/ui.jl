@@ -136,25 +136,6 @@ end
 
 
 ##hackey-hack
-function uncompressAst(f)
-    if isa(f.code.ast,Array{Uint8,1})
-        ccall(:jl_uncompress_ast, Any, (Any, Any), f.code, f.code.ast)
-    else
-        f.code.ast
-    end
-end
-
-function functionParams(f)
-    ast = uncompressAst(f)
-    @assert ast.head == :lambda
-    ae = ast.args[1]
-    p = cell(length(ae))
-    for i=1:length(ae)
-        @assert ae[i].head == :(::)
-        p[i] = string(ae[i].args[1])
-    end
-    p
-end
 
 
 export slurp
