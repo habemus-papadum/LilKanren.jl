@@ -5,16 +5,6 @@ immutable type Var
     id::Int
 end
 
-## for reification
-immutable type FreeValue
-    id::Int
-end
-
-immutable type SelfRef
-   name
-end
-
-
 
 ## A translation of µKanren
 ## ---------------------------

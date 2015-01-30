@@ -1,3 +1,12 @@
+## for reification
+immutable type FreeValue
+    id::Int
+end
+
+immutable type SelfRef
+   name
+end
+
 
 ## output
 import LightTable
