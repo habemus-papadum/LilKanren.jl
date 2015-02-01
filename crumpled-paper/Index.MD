@@ -1,15 +1,21 @@
 Crumpled Paper
 ===============
 * doodles
+ * [2015-01-Hangout]
+[2015-01-Hangout]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Hangout.ipynb
  * [2015-01-PrettyPrint]
 [2015-01-PrettyPrint]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-PrettyPrint.ipynb
  * [2015-01-Simple-Reify]
 [2015-01-Simple-Reify]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Simple-Reify.ipynb
  * [2015-01-SlurpityDooDah]
 [2015-01-SlurpityDooDah]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-SlurpityDooDah.ipynb
+ * [2015-01-Small-Models]
+[2015-01-Small-Models]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Small-Models.ipynb
  * [2015-01-SmallModelsv2]
 [2015-01-SmallModelsv2]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-SmallModelsv2.ipynb
 * julialang
+ * [JLangBrackets]
+[JLangBrackets]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangBrackets.ipynb
  * [JLangCallable]
 [JLangCallable]: http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/julialang/JLangCallable.ipynb
  * [JLangComprehensions]
