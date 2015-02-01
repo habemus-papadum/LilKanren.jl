@@ -5,7 +5,7 @@ module LilKanren
   include("utils.jl")
   include("unnest.jl")
   include("helpers.jl")
-  include("grammar.jl")
+#  include("grammar.jl")
   include("ui.jl")
 end
 
