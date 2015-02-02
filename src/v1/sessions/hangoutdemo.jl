@@ -1,5 +1,16 @@
 using LilKanren
 
+
+## Contents:
+## =======================
+## * Basic equivalences
+## * Lists
+## * "Grammars"
+## * Peano Numbers
+## * Binary Numbers
+## * Logic Puzzles
+
+
 ## basics
 slurp() do q, a, b, c, d, e
     ( q     ≡ (:♣, :♠) )  ∧

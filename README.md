@@ -15,7 +15,7 @@ Each notebook implements a (typically self-contained) kanren in a conversational
 
 If you are just browsing, and would rather not be bothered by the hassles of cloning the repo, setting up IJulia, and such -- then following links to pre-rendered versions of the notebooks may be the path for you.
 
-However, interactive fiddling is **highly** encouraged -- again, for those seeking the path of least resistance, JuliaBox wins the prize.
+However, interactive fiddling is **highly** encouraged -- again, for those seeking the path of least resistance, JuliaBox and/or Juno are good places to start.
 
 ### lilinjn's Dogma of Search
 --------------------------
@@ -25,14 +25,15 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 * Thou shalt not `reify`, lest your bones become brittle.
 * Thou shalt not `take` or `run` without first learning to `step`, so that you may better hear the gentle rhythms of `thunk`, `thunk`, `dribble`, `thunk`, `dribble`, `dribble`, `thunk`...
 * Thou shalt not `occurs✓`, because we should not be afraid of our own shadow, but instead rejoice in our infinite potential. 
+* Friends don't let friends use macros -- at least, not those made of sugar.  Macros made of acid may be a different story... 
 
 
 ### Bucket List
 --------------------------
 * **Threading the Needle**: Further experiments in syntax
 * **A Mere Trifle aka The Bourgeois Ascendency**: A `Persistent Vector Store+Union-Find Walker` and benchmarking paraphenalia
-* **Look into the Abyss**: Visualizing the Geometry of Search
-* **Searching for 𝕳𝔢𝔯𝔯 𝕯𝔬𝔨𝔱𝔬𝔯 𝕳𝔬𝔭𝔣**: No not that one, the other one.  
+* **Looking into the Abyss**: Visualizing the Geometry of Search
+* **Searching for 𝕳𝔢𝔯𝔯 𝕯𝔬𝔨𝔱𝔬𝔯 𝕳𝔬𝔭𝔣**: No not that one, the other one.
 
 
 ### What th' Wuh?
@@ -40,6 +41,7 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 * **kanren**? cf. http://minikanren.org/
 * **Julia**? cf. http://julialang.org/
 * **JuliaBox**? cf. http://juliabox.org/
+* **Juno**? cf. http://junolab.org/
 
 -------------------------
 
