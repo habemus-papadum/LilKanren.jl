@@ -15,7 +15,7 @@ Each notebook implements a (typically self-contained) kanren in a conversational
 [FirstSteps]:http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/FirstSteps.ipynb  
 [Demo]:http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Hangout.ipynb
 
-If you are just browsing, and would rather not be bothered by the hassles of cloning the repo, setting up IJulia, and such -- then following links to pre-rendered versions of the notebooks may be the path for you.
+If you are just browsing, and would rather not be bothered by the hassles of cloning the repo, setting up IJulia, and such -- then above links to pre-rendered versions of the notebooks may be the path for you.
 
 However, interactive fiddling is **highly** encouraged -- again, for those seeking the path of least resistance, JuliaBox and/or Juno are good places to start.
 
