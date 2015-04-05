@@ -19,7 +19,7 @@ def makeindex(path, file, level = 0)
 end
 
 
-File.open('crumpled-paper/Index.MD', 'w') do |file|
+File.open('crumpled-paper/Readme.MD', 'w') do |file|
   header = <<HEADER
 Crumpled Paper
 ===============
