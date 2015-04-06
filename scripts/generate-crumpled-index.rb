@@ -5,7 +5,7 @@ require 'pathname'
 
 def makeindex(path, file, level = 0)
   puts path
-  address = "http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/"
+  address = 'http://nbviewer.ipython.org/github/lilinjn/LilKanren.jl/blob/master/'
   path.children.collect do |child|
     if child.file? and child.extname == ".ipynb"
       file.write((' ' * level) + '* [' + child.basename('.*').to_s + "]\n")
