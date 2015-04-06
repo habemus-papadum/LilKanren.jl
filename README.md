@@ -12,8 +12,8 @@ Each notebook implements a (typically self-contained) kanren in a conversational
 
 * [FirstSteps]: A translation of µKanren with some exploration of Julia specific features to create nice syntax
 
-[FirstSteps]:http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/FirstSteps.ipynb  
-[Demo]:http://nbviewer.ipython.org/github/lilinjn/lilKanren/blob/master/crumpled-paper/doodles/2015-01-Hangout.ipynb
+[FirstSteps]:http://nbviewer.ipython.org/github/lilinjn/LilKanren.jl/blob/master/FirstSteps.ipynb
+[Demo]:http://nbviewer.ipython.org/github/lilinjn/LilKanren.jl/blob/master/crumpled-paper/doodles/2015-01-Hangout.ipynb
 
 If you are just browsing, and would rather not be bothered by the hassles of cloning the repo, setting up IJulia, and such -- then the above links to pre-rendered versions of the notebooks may be the path for you.
 
