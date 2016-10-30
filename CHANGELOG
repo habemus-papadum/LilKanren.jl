@@ -1,0 +1,14 @@
+V3:
+=================
+circa Nov.2016
+* A potential reboot of LilKanren?  We'll see....
+
+V2:
+=================
+circa Apr.2015
+* Fizzled after a few days of fiddling around; Left in a broken and incomplete state.  In hindsight the few approaches I was considering no longer seem well though out.  
+
+V1:
+=================
+circa Jan 2015
+* The initial version.  A fun burst of ideas. Written vs. Julia 0.3 --> It seems that this code will never run properly on any new Julia without massive work.  However, the rendered notebooks do contain a transcript of my thought process and I am glad they still exist.  
