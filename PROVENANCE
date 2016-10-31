@@ -1,0 +1,10 @@
+It is a goal of this package to stay mostly self contained.  To this end, I adopt various strategies for dealing with 3rd party code.
+
+In particular, one pattern involves copying small pieces of existing open source content rather than creating an explicit Package Manager dependency or git submodule to consume the functionality.  The primary reasons for this approach are 1) to encourage internalizing and regurgitating  various gems found in the wild to make them first class citizens of my mind, and 2) the circa 2016 Julia Pkg manager makes my blood pressure rise.
+
+When code snippets are lifted from other sources, I will try my best to do the following:
+    1) Near the location the copied code is being used, I will add a comment indicating that the code's provenance.
+    2) I will add an entry in this file, which will be organized by date, also recording provenance, and providing some plain language commentary of what I was thinking:  why I was interested in this piece of code, why I chose to copy (which is essentially an anti-social behavior indicating I am not so interested in upstream changes), to what extent I plan to hack it in the future, and so forth.
+
+Lifted Code
+-----------------
