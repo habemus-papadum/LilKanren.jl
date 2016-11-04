@@ -47,7 +47,7 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 
 -------------------------
 
-*We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.* -- T.S. Eliot
+> *We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.* -- T.S. Eliot
 
 
 ##
