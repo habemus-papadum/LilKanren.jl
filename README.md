@@ -1,6 +1,6 @@
 # 𝕳𝖊𝖗𝖊 𝖇𝖊 𝕶𝖆𝖓𝖗𝖊𝖓𝖘**‼**
 
-### Welcome to *lilinjn's*<sup id="a1">[1](#f1)</sup> Institute for Search Research!
+### Welcome to *lilinjn's*<sup id="a1">[[1]](#f1)</sup> Institute for Search Research!
 -----------------------------------------------------------
 Just like Mitt, I'd like a binder full of kanren, and so I am collecting my assortment of notebooks on the topic in this repo. 
 
