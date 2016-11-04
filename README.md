@@ -1,6 +1,6 @@
 # 𝕳𝖊𝖗𝖊 𝖇𝖊 𝕶𝖆𝖓𝖗𝖊𝖓𝖘**‼**
 
-### Welcome to *lilinjn's* Institute for Search Research!
+### Welcome to *lilinjn's*<sup id="a1">[1](#f1)</sup> Institute for Search Research!
 -----------------------------------------------------------
 Just like Mitt, I'd like a binder full of kanren, and so I am collecting my assortment of notebooks on the topic in this repo. 
 
@@ -48,3 +48,7 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 -------------------------
 
 *We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.* -- T.S. Eliot
+
+
+##
+<b id="f1"><sup><sub>[1]</sup></sub></b> <sup><sub>[↩](#a1)`:lilinjn ≡ :habemus-papadum`</sup></sub>
