@@ -7,7 +7,7 @@ Just like Mitt, I'd like a binder full of kanren, and so I am collecting my asso
 Each notebook implements a (typically self-contained) kanren in a conversational style, while exploring a spectrum of design issues.  The code is meant mostly to be read and twiddled interactively.  At some later point the various lessons learned may be baked into library form suitable for public consumption. 
 
 ### Notebooks
---------------------------
+##
 * [Demo]: A quick demonstration of the current state of affairs 
 
 * [FirstSteps]: A translation of µKanren with some exploration of Julia specific features to create nice syntax
@@ -20,7 +20,7 @@ If you are just browsing, and would rather not be bothered by the hassles of clo
 However, interactive fiddling is **highly** encouraged -- again, for those seeking the path of least resistance, JuliaBox and/or Juno are good places to start.
 
 ### lilinjn's Dogma of Search
---------------------------
+##
 The dogma is so designed to foster intuition about the geometry of search. The issue at hand is no different than the quandry of when to introduce calculators in grade school. 
 
 * Thou shalt not prophylactically `zzz`, lest you never overcome your fear of the Dragon.
@@ -31,7 +31,7 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 
 
 ### Bucket List
---------------------------
+##
 * **Threading the Needle**: Further experiments in syntax
 * **A Mere Trifle aka The Bourgeois Ascendency**: A `Persistent Vector Store+Union-Find Walker` and benchmarking paraphenalia
 * **Looking into the Abyss**: Visualizing the Geometry of Search
@@ -39,16 +39,15 @@ The dogma is so designed to foster intuition about the geometry of search. The i
 
 
 ### What th' Wuh?
--------------------------
+##
 * **kanren**? cf. http://minikanren.org/
 * **Julia**? cf. http://julialang.org/
 * **JuliaBox**? cf. http://juliabox.org/
 * **Juno**? cf. http://junolab.org/
 
--------------------------
+##
 
 > *We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.* -- T.S. Eliot
-
 
 ##
 <b id="f1"><sup><sub>[1]</sup></sub></b> <sup><sub>[↩](#a1)`:lilinjn ≡ :habemus-papadum`</sup></sub>
